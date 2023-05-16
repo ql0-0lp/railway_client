@@ -1,0 +1,19 @@
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu_link a{
+    color: var(--text-color);
+    font-size: 1.71vw;
+    line-height: 2.08vw;
+    font-weight: 700;
+}
+
+.nav_menu_link:last-child a {
+    padding: 17px 18px;
+    color: var(--bg-color);
+    background-color: var(--light-blue);
+    border-radius: 10px;
+}
