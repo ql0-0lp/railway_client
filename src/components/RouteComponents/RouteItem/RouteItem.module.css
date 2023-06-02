@@ -1,0 +1,48 @@
+.route {
+    margin-bottom: 2vw;
+    position: relative;
+    border: 0.14vw solid var(--light-blue);
+    border-radius: 0.69vw;
+}
+
+.route_header {
+    background-color: var(--light-blue);
+    border-radius: 0.5vw 0.5vw 0 0;
+    padding: 0.69vw 1.11vw;
+}
+
+.route_content {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.39vw 3.47vw;
+}
+
+.route_content span {
+    display: block;
+    color: #8F8F8F;
+    font-size: 1.39vw;
+    line-height: 1.60vw;
+    margin: 0.97vw 0 0.35vw 0;
+}
+
+.route_content p {
+    color: var(--text-color);
+    font-size: 1.81vw;
+    line-height: 2.08vw;
+}
+
+.route_button {
+    width: 100%;
+}
+
+.route_button button {
+    display: block;
+    width: 100%;
+    padding: 0.63vw 0;
+    background-color: var(--light-blue);
+    color: var(--bg-color);
+    font-size: 1.94vw;
+    line-height: 2.22vw;
+    font-weight: 700;
+    border-radius: 0 0 0.5vw 0.5vw;
+}

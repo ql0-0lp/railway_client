@@ -1,0 +1,35 @@
+.route_details {
+    margin-top: 2.78vw;
+}
+
+.route_details span {
+    font-size: 1.39vw;
+    line-height: 1.60vw;
+    color: #8F8F8F;
+    margin-bottom: 1.25vw;
+}
+
+.route_details p {
+    font-size: 1.81vw;
+    line-height: 2.08vw;
+    margin-bottom: 1.94vw;
+}
+
+.route_details button {
+    margin-top: 10vw;
+}
+
+.part_of_details {
+    width: 33.3333334%;
+}
+
+.part_of_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border-right: 0.14vw solid #959595;
+    border-left: 0.14vw solid #959595;
+}

@@ -36,6 +36,7 @@
     min-width: 100%;
     display: none;
     position: absolute;
+    z-index: 4;
     top: 2.78vw;
     left: 0;
     background-color: var(--bg-color);

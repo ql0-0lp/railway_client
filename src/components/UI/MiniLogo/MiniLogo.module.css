@@ -1,0 +1,20 @@
+.logo_block {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo_block svg {
+    fill: var(--bg-color);
+    width: 2.01vw;
+    height: 2.22vw;
+    margin-right: 0.5vw;
+}
+
+.logo_block h3 {
+    font-family: var(--h-font);
+    font-size: 1.81vw;
+    line-height: 2.15vw;
+    font-weight: 700;
+    color: var(--bg-color);
+}

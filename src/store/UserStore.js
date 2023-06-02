@@ -4,7 +4,7 @@ export class UserStore {
     constructor() {
         this._isAuth = false
         this._isAdmin = false
-        this._user = {}
+        this._userId = ''
         makeAutoObservable(this)
     }
 
@@ -14,8 +14,8 @@ export class UserStore {
     setIsAdmin(bool) {
         this._isAdmin = bool
     }
-    setUser(user) {
-        this._user = user
+    setUserId(userId) {
+        this._userId = userId
     }
 
     get isAuth() {
@@ -24,7 +24,7 @@ export class UserStore {
     get isAdmin() {
         return this._isAdmin
     }
-    get user() {
-        return this._user
+    get userId() {
+        return this._userId
     }
 }

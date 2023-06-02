@@ -1,0 +1,11 @@
+.button {
+    display: block;
+    width: 100%;
+    color: var(--bg-color);
+    background-color: var(--light-blue);
+    padding: 0.35vw 0;
+    font-size: 1.67vw;
+    line-height: 1.94vw;
+    font-weight: 600;
+    border-radius: 0.69vw;
+}

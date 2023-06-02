@@ -1,0 +1,21 @@
+.block {
+    width: 100%;
+    margin-bottom: 1.39vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.small_label, .big_label {
+    font-family: var(--h-font);
+}
+
+.small_label {
+    font-size: 1.25vw;
+    margin-bottom: 0.28vw;
+    line-height: 1.39vw;
+}
+
+.big_label {
+    font-size: 1.81vw;
+    line-height: 2.01vw;
+}

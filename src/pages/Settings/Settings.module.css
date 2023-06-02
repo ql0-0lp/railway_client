@@ -1,0 +1,12 @@
+.settings {
+    margin-top: 1vw;
+    display: flex;
+}
+
+.settings_nav {
+    width: 18%;
+}
+
+.settings_content {
+    width: 82%;
+}

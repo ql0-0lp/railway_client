@@ -1,0 +1,76 @@
+.ticket {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.7vw;
+}
+
+.ticket_content {
+    width: 90%;
+    border-radius: 0.69vw 0 0 0.69vw;
+    border: 0.14vw solid var(--light-blue);
+}
+
+.ticket_header {
+    background-color: var(--light-blue);
+    border-radius: 0.5vw 0 0 0;
+    padding: 0.42vw 1.46vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket_header h2 {
+    font-size: 2.22vw;
+    line-height: 2.57vw;
+    font-weight: 700;
+    color: var(--bg-color);
+}
+
+.ticket_info {
+    padding: 1.39vw;
+    display: flex;
+}
+
+.ticket_info span {
+    display: block;
+    color: #8F8F8F;
+    font-size: 1.39vw;
+    line-height: 1.60vw;
+    margin: 0.97vw 0 0.35vw 0;
+}
+
+.ticket_info p {
+    color: var(--text-color);
+    font-size: 1.81vw;
+    line-height: 2.08vw;
+}
+
+.info_about_user {
+    width: 40%;
+    border-right: 0.14vw solid #8F8F8F;
+    padding-right: 1.39vw;
+}
+
+.train_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_about_route {
+    width: 60%;
+    padding-left: 1.39vw;
+}
+
+.ticket_remove {
+    display: flex;
+    width: 10%;
+    border: 0.14vw solid #FF0000;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket_remove svg {
+    display: block;
+    width: 3.61vw;
+    height: 3.75vw;
+}

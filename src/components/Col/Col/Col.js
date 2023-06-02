@@ -2,14 +2,12 @@ import React from "react";
 import cn from "classnames";
 import s from "./Col.module.css";
 
-const Col = ({className="", children, colWidth, tag = "div"}) => {
-
-    const Wrapper = tag;
+const Col = ({children, colWidth}) => {
 
     return (
-        <Wrapper className={cn(className, { [s[`${colWidth}`]]: colWidth })}>
+        <div className={cn({ [s[`${colWidth}`]]: colWidth })}>
             {children}
-        </Wrapper>
+        </div>
     );
 }
 

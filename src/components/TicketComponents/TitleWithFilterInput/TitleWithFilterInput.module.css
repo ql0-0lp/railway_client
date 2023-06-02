@@ -1,0 +1,13 @@
+.block {
+    width: 100%;
+    margin-bottom: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter_title {
+    font-size: 1.39vw;
+    line-height: 1.60vw;
+    color: #828282;
+    margin-bottom: 0.42vw;
+}

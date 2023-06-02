@@ -1,10 +1,14 @@
 import React from 'react';
+import PageTitle from "../../PageTitle/PageTitle";
+import TicketsList from "../../components/TicketComponents/TicketsList/TicketsList";
 
 const Tickets = () => {
-    return (
-        <div>
 
-        </div>
+    return (
+        <main>
+            <PageTitle title={'Мои билеты'}/>
+            <TicketsList/>
+        </main>
     );
 };
 
